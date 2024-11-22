@@ -1,167 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Ensure to include Font Awesome or any icon library for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mritunjoy Roy's Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-        }
-        header p {
-            margin: 5px 0;
-        }
-        nav {
-            background: #444;
-            color: #fff;
-            padding: 10px;
-            position: sticky;
-            top: 0;
-            display: flex;
-            justify-content: center;
-        }
-        nav a {
-            color: #fff;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        section {
-            padding: 20px;
-            border-bottom: 1px solid #ccc;
-        }
-        section h2 {
-            margin-top: 0;
-        }
-        .skills span {
-            display: inline-block;
-            background: #f4f4f4;
-            border: 1px solid #ddd;
-            margin: 5px;
-            padding: 5px 10px;
-            border-radius: 5px;
-        }
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <title>Mritunjoy Roy</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+<!-- Header Section -->
 <header>
-    <h1>Mritunjoy Roy</h1>
-    <p>Email: <a href="mailto:mritunjoy071@gmail.com">mritunjoy071@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/mritunjoy-roy-27b99b12a/" target="_blank">linkedin.com/in/mritunjoy-roy-27b99b12a</a></p>
-    <p>GitHub: <a href="https://github.com/Mritunjoy71" target="_blank">github.com/mritunjoy</a></p>
+    <div class="container">
+        <h1>Mritunjoy Roy</h1>
+        <nav>
+            <a href="index.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="cv.html" target="_blank" rel="noopener noreferrer">CV</a>
+        </nav>
+    </div>
 </header>
 
-<nav>
-    <a href="#objective">Objective</a>
-    <a href="#education">Education</a>
-    <a href="#work-experience">Work Experience</a>
-    <a href="#skills">Technical Skills</a>
-    <a href="#projects">Professional Projects</a>
-    <a href="#academic-projects">Academic Projects</a>
-    <a href="#problem-solving">Problem Solving</a>
-</nav>
+<!-- Main Content Area with Sidebar and Main Content -->
+<div class="container">
+    <div class="content-wrapper">
+        <!-- Sidebar (Left Column) -->
+        <aside class="sidebar">
+            <div class="profile-card">
+                <img src="Mritunjoy600X600.jpg" alt="Profile Picture" class="profile-img">
+                <h2>Software Engineer</h2>
+                <p>Reve System Limited</p>
+                <div class="contact-info">
+                    <p><strong><i class="fas fa-map-marker-alt"></i></strong> REVE Centre, Plot-94, Purbachal Express Highway, Dumni, Khilkhet, Dhaka 1229, Bangladesh</p>
+                    <p><strong><i class="fas fa-envelope"></i></strong>
+                        <a href="mailto:mritunjoy071@gmail.com">mritunjoy071@gmail.com</a>
+                    </p>
+                    <p><strong><i class="fas fa-envelope"></i></strong>
+                        <a href="mailto:mritunjoy@revesoft.com">mritunjoy@revesoft.com</a>
+                    </p>
+                    <p><strong><i class="fab fa-linkedin fa-1x"></i></strong> <a href="https://www.linkedin.com/in/mritunjoy-roy-27b99b12a/" target="_blank">linkedin.com/in/mritunjoy</a></p>
+                    <p><strong><i class="fab fa-github fa-1x"></i></strong> <a href="https://github.com/Mritunjoy71" target="_blank">github.com/Mritunjoy71</a></p>
+                </div>
+            </div>
+        </aside>
 
-<section id="objective">
-    <h2>Objective</h2>
-    <p>
-        A proficient Java developer with three years of industry experience, adept at designing, 
-        implementing, and maintaining Java-based applications. Proficient in utilizing Java frameworks 
-        such as Spring and Hibernate to develop efficient and scalable software solutions. Skilled in database 
-        management systems like MySQL. Seeking to leverage expertise in Java development to tackle complex 
-        challenges, optimize code performance, and contribute to the success of cutting-edge projects within 
-        a forward-thinking organization.
-    </p>
-</section>
-
-<section id="education">
-    <h2>Education</h2>
-    <ul>
-        <li><strong>Bangladesh University of Engineering and Technology:</strong> B.Sc in Computer Science and Engineering (2021)</li>
-        <li><strong>Notre Dame College, Dhaka:</strong> Higher Secondary Certificate (2015)</li>
-    </ul>
-</section>
-
-<section id="work-experience">
-    <h2>Work Experience</h2>
-    <ul>
-        <li>
-            <strong>REVE Systems:</strong> Software Engineer (July 2021 - Present, 3 Years)
-            <ul>
-                <li>Worked on Bharti Airtel Limited’s wholesale voice, SMS, and DID service digitization.</li>
-                <li>Developed customer panel using Vue.js and Spring Boot.</li>
-                <li>Integrated Airtel’s third-party business partner APIs.</li>
-                <li>Implemented graphical dashboards and analytics for voice and SMS traffic.</li>
-                <li>Converted the old DID CRM to Spring Boot and Vue.js.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>SSD-Tech:</strong> Software Engineer (March 2021 - June 2021, 4 Months)
-            <ul>
-                <li>Participated in developing scalable software solutions.</li>
-            </ul>
-        </li>
-    </ul>
-</section>
-
-<section id="skills">
-    <h2>Technical Skills</h2>
-    <div class="skills">
-        <span>Java</span><span>Python</span><span>C++</span><span>C</span>
-        <span>PHP</span><span>CSS</span><span>JavaScript</span><span>TypeScript</span>
-        <span>Vue.js</span><span>Matlab</span><span>ShellScript</span>
-        <span>Spring Boot</span><span>Struts</span><span>Laravel</span>
-        <span>MySQL</span><span>Oracle</span><span>Git</span><span>Maven</span>
-        <span>Postman</span>
+        <!-- Main Content (Right Column) -->
+        <section class="main-content">
+            <div class="biography">
+                <p>
+                    A proficient Java developer with three years of industry experience, adept at designing, implementing, and maintaining
+                    Java-based applications. Proficient in utilizing Java frameworks such as Spring and Hibernate to develop efficient and scalable
+                    software solutions. Skilled in database management systems like MySQL. Seeking to leverage expertise in Java development to
+                    tackle complex challenges, optimize code performance, and contribute to the success of cutting-edge projects within a
+                    forward-thinking organization.
+                </p>
+            </div>
+        </section>
     </div>
-</section>
+</div>
 
-<section id="projects">
-    <h2>Professional Projects</h2>
-    <p><strong>Airtel Advantage Platform:</strong> Worked on customer panels, analytics, notifications, client recharge, and integration with APIs.</p>
-    <p><strong>DID Providers' API Integration:</strong> Developed subscription modules and integrated APIs of DIDWW, DIDXL, and Telserv.</p>
-</section>
-
-<section id="academic-projects">
-    <h2>Academic Projects</h2>
-    <ul>
-        <li><strong>Online Vasha Shikkha:</strong> Developed a cross-language learning platform using PHP and Laravel.</li>
-        <li><strong>Television Channel Management:</strong> Created an RDBMS for TV channel data management using Java and Oracle.</li>
-        <li><strong>Automated Traffic Light Controller:</strong> Implemented traffic control with sensors using Java and ATMEGA32.</li>
-        <li><strong>Chat Messenger:</strong> Built a chat app using JavaFX.</li>
-        <li><strong>Bow and Arrow Shooting Game:</strong> Developed a game using IGraphics in C.</li>
-    </ul>
-</section>
-
-<section id="problem-solving">
-    <h2>Problem Solving</h2>
-    <p>Solved over 200 problems on LeetCode.</p>
-</section>
-
-<footer>
-    <p>© 2024 Mritunjoy Roy</p>
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 text-muted">
+                <p>© 2024 Mritunjoy Roy</p>
+            </div>
+        </div>
+    </div>
 </footer>
+
+
 
 </body>
 </html>
