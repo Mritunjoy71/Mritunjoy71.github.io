@@ -13,8 +13,12 @@ body {
     margin: 0;           /* Remove default margin that might cause overflow */
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .container {
-    width: 60%;
+    width: 50%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
@@ -77,6 +81,27 @@ nav a:hover {
     box-shadow: none;
     border: none;
 }
+
+
+img {
+    max-width: 100%;    /* Ensure images do not overflow */
+    height: auto;       /* Maintain aspect ratio */
+}
+
+
+@media (max-width: 768px) {
+    /* On mobile devices, remove margins and ensure full width */
+    .container {
+        padding: 15px;   /* Optional, adjust padding for mobile view */
+        width: 100%;     /* Ensure the container takes up the full width */
+    }
+}
+
+.scrollable-container {
+    overflow-y: scroll;  /* Allow vertical scrolling */
+    max-height: 100vh;    /* Limit height to the viewport height */
+}
+
 
 
 .profile-card {
