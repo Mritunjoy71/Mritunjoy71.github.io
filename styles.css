@@ -5,10 +5,12 @@ body {
     font-size: 16px;
     font-family: "Open Sans", Arial, sans-serif;
     font-weight: 400;
-    margin: 0;
     padding: 0;
     color: #333; /* Text color for contrast */
     background: #FFFFFF;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    width: 100%;         /* Ensure full width of the page is constrained */
+    margin: 0;           /* Remove default margin that might cause overflow */
 }
 
 .container {
@@ -23,6 +25,9 @@ header {
     background: rgba(32, 72, 76, 0.68);
     color: #fff;
     padding: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    width: 100%;         /* Ensure full width of the page is constrained */
+    margin: 0;           /* Remove default margin that might cause overflow */
 }
 
 header .container {
