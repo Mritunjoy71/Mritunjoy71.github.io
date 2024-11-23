@@ -8,7 +8,7 @@ body {
     background: #FFFFFF;
     overflow-x: hidden; /* Disable horizontal scroll */
     width: 100%;         /* Ensure full width of the page is constrained */
-    margin: 0;           /* Remove default margin that might cause overflow */
+    margin: 0 auto;           /* Remove default margin that might cause overflow */
 }
 
 * {
@@ -96,7 +96,7 @@ img {
 
 @media (max-width: 768px) {
     body {
-        font-size: 1em; /* Smaller font for smaller screens */
+        font-size: xx-small; /* Smaller font for smaller screens */
     }
     /* On mobile devices, remove margins and ensure full width */
     .container {
