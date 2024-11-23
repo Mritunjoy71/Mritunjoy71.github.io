@@ -64,7 +64,7 @@ nav a:hover {
 /* Content Wrapper */
 .content-wrapper {
     display: flex;
-    gap: 1px;
+    gap: 10px;
     margin-top: 20px;
 }
 
@@ -90,7 +90,7 @@ nav a:hover {
 }
 
 
-.img {
+img {
     max-width: 100%;    /* Ensure images do not overflow */
     height: auto;       /* Maintain aspect ratio */
 }
@@ -133,11 +133,9 @@ nav a:hover {
 .biography p {
     margin: 10px 0;
 }
-
 .push-down-3 {
     margin-top: 3rem !important;
 }
-
 h2, h3 {
     margin: 0 0 2rem !important;
     color: slategray;
@@ -146,7 +144,6 @@ h2, h3 {
 .university {
     color: gray;
 }
-
 em {
     font-style: italic;
 }
