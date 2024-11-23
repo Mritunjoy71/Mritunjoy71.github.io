@@ -1,8 +1,6 @@
 /* Global Styles */
 body {
-    /*font-size: 1rem;*/
-    /*font-family: "Montserrat", Helvetica, sans-serif;*/
-    font-size: 16px;
+    font-size: 1.2em; /* Adjust base font size */
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     padding: 0;
@@ -97,6 +95,9 @@ img {
 
 
 @media (max-width: 768px) {
+    body {
+        font-size: 1em; /* Smaller font for smaller screens */
+    }
     /* On mobile devices, remove margins and ensure full width */
     .container {
         padding: 15px;   /* Optional, adjust padding for mobile view */
