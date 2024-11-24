@@ -4,8 +4,10 @@ body {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     padding: 0;
-    color: #333; /* Text color for contrast */
-    background: #FFFFFF;
+    color: #100101; /* Text color for contrast */
+    background-image: url('assets/background.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center; /* Centers the image */
     overflow-x: hidden; /* Disable horizontal scroll */
     width: 100%;         /* Ensure full width of the page is constrained */
     margin: 0 auto;           /* Remove default margin that might cause overflow */
@@ -31,7 +33,7 @@ code {
 
 /* Header */
 header {
-    background: rgba(16, 75, 41, 0.78);
+    background: rgba(32, 72, 76, 0.96);
     color: #fff;
     padding: 0;
     overflow-x: hidden; /* Disable horizontal scroll */
@@ -139,7 +141,7 @@ img {
 }
 h2, h3 {
     margin: 0 0 2rem !important;
-    color: slategray;
+    color: rgba(32, 72, 76, 0.68);
 }
 
 .university {
