@@ -141,11 +141,11 @@ img {
 }
 h2, h3 {
     margin: 0 0 2rem !important;
-    color: rgba(32, 72, 76, 0.68);
+    color: rgb(4, 65, 73);
 }
 
 .university {
-    color: gray;
+    color: #625533;
 }
 em {
     font-style: italic;
@@ -154,7 +154,7 @@ em {
 .skills span {
     display: inline-block;
     background: transparent;
-    border: 1px solid #ddd;
+    border: 1px solid #255154;
     margin: 5px;
     padding: 5px 10px;
     border-radius: 5px;
